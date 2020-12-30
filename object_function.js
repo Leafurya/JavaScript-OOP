@@ -12,3 +12,5 @@ function ShowValue(mVal){
 }
 
 ShowValue.call(mango,100);
+var NewMangoShowValue=ShowValue.bind(mango,30);
+NewMangoShowValue();
